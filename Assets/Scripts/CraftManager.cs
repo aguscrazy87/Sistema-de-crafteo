@@ -21,10 +21,12 @@ public class CraftManager : MonoBehaviour
     public void SetRecipe()
     {
         recipeToCheck = string.Empty;
-        for (int i = 0; i <= TableTiles.Length; i++)
+        for (int i = 0; i < TableTiles.Length; i++)
         {
             recipeToCheck += TableTiles[i].ToString();
         }
+
+        Debug.Log(recipeToCheck);
     }
     /// <summary>
     /// Revisa si alguno de los scriptableobjects en el array contiene esa receta
@@ -64,9 +66,11 @@ public class CraftManager : MonoBehaviour
     /// </summary>
     public void CleanTable()
     {
-        for(int i = 0; i <= TableTiles.Length; i++)
+        for(int i = 0; i < TableTiles.Length; i++)
         {
             TableTiles[i] = 0;
         }
+
+        SetRecipe();
     }
 }

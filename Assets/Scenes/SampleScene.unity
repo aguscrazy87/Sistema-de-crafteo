@@ -201,7 +201,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 39641573}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1095533934}
+        m_TargetAssemblyTypeName: CraftManager, Assembly-CSharp
+        m_MethodName: SelectCurrentObject
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &39641573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -594,7 +606,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 132135412}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1095533934}
+        m_TargetAssemblyTypeName: CraftManager, Assembly-CSharp
+        m_MethodName: SetTile
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &132135412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1077,7 +1101,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 420385225}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1095533934}
+        m_TargetAssemblyTypeName: CraftManager, Assembly-CSharp
+        m_MethodName: SetTile
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 8
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &420385225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1198,7 +1234,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 522252055}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1095533934}
+        m_TargetAssemblyTypeName: CraftManager, Assembly-CSharp
+        m_MethodName: SetTile
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 7
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &522252055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1455,7 +1503,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 567058238}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1095533934}
+        m_TargetAssemblyTypeName: CraftManager, Assembly-CSharp
+        m_MethodName: SelectCurrentObject
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &567058238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1791,7 +1851,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 639120283}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1095533934}
+        m_TargetAssemblyTypeName: CraftManager, Assembly-CSharp
+        m_MethodName: SelectCurrentObject
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &639120283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2048,7 +2120,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 767247496}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1095533934}
+        m_TargetAssemblyTypeName: CraftManager, Assembly-CSharp
+        m_MethodName: SetTile
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &767247496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2441,7 +2525,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 832037844}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1095533934}
+        m_TargetAssemblyTypeName: CraftManager, Assembly-CSharp
+        m_MethodName: SetTile
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &832037844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2611,7 +2707,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 904929082}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1095533934}
+        m_TargetAssemblyTypeName: CraftManager, Assembly-CSharp
+        m_MethodName: SetTile
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &904929082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2732,7 +2840,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 912301826}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1095533934}
+        m_TargetAssemblyTypeName: CraftManager, Assembly-CSharp
+        m_MethodName: SetTile
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &912301826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2907,6 +3027,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1074649230}
   m_CullTransparentMesh: 1
+--- !u!1 &1095533933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1095533935}
+  - component: {fileID: 1095533934}
+  m_Layer: 0
+  m_Name: Craft Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1095533934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095533933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ffcbbde291032f4892e339dd9421d42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recipiesArray:
+  - {fileID: 11400000, guid: 40e6882afc2e4e94cb8e9f86ec680a4c, type: 2}
+  ButtonList:
+  - {fileID: 1496493150}
+  - {fileID: 39641572}
+  - {fileID: 2126411635}
+  - {fileID: 567058237}
+  - {fileID: 1233337927}
+  - {fileID: 639120282}
+  TableTiles: 000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!4 &1095533935
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095533933}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 213.668, y: 117.20556, z: 214.54504}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1177546901
 GameObject:
   m_ObjectHideFlags: 0
@@ -3261,7 +3435,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1233337928}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1095533934}
+        m_TargetAssemblyTypeName: CraftManager, Assembly-CSharp
+        m_MethodName: SelectCurrentObject
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1233337928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3654,7 +3840,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1476106414}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1095533934}
+        m_TargetAssemblyTypeName: CraftManager, Assembly-CSharp
+        m_MethodName: SetTile
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1476106414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3775,7 +3973,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1496493151}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1095533934}
+        m_TargetAssemblyTypeName: CraftManager, Assembly-CSharp
+        m_MethodName: SelectCurrentObject
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1496493151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4287,7 +4497,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1752412018}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1095533934}
+        m_TargetAssemblyTypeName: CraftManager, Assembly-CSharp
+        m_MethodName: SetTile
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1752412018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4585,7 +4807,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2126411636}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1095533934}
+        m_TargetAssemblyTypeName: CraftManager, Assembly-CSharp
+        m_MethodName: SelectCurrentObject
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2126411636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4633,3 +4867,4 @@ SceneRoots:
   - {fileID: 832575519}
   - {fileID: 404100623}
   - {fileID: 602707912}
+  - {fileID: 1095533935}
