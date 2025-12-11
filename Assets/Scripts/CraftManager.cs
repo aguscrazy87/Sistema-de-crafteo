@@ -15,7 +15,6 @@ public class CraftManager : MonoBehaviour
     public int inventoryObjects;
     public Image[] TileImage;
     public Sprite[] ObjectImage;
-
     void Start()
     {
         inventoryObjects = inventory.GetObjectsOnList();
@@ -30,7 +29,6 @@ public class CraftManager : MonoBehaviour
         {
             recipeToCheck += TableTiles[i].ToString();
         }
-
         Debug.Log(recipeToCheck);
     }
     /// <summary>
@@ -45,17 +43,14 @@ public class CraftManager : MonoBehaviour
                 CraftObject(recipiesArray[i].getObjectID());
                 break;
             }
-
             else if(inventoryObjects > recipiesArray[i].getObjectID())
             {
                 Debug.Log("Si hay objeto crafteable pero la receta es incorrecta");
             }
-
             else if (recipeToCheck == recipiesArray[i].getRecipe())
             {
                 Debug.Log("La receta es correcta pero no hay un boton asignado");
             }
-
             else 
             {
                 Debug.Log("No se pudo crear");
@@ -89,7 +84,6 @@ public class CraftManager : MonoBehaviour
     public void SelectCurrentObject(int ingredient)
     {
         currentObject = ingredient;
-        
     }
     /// <summary>
     /// Limpia la mesa de objetos
@@ -101,7 +95,6 @@ public class CraftManager : MonoBehaviour
             TableTiles[i] = 0;
             TileImage[i].sprite = ObjectImage[0];
         }
-
         SetRecipe();
     }
 }
