@@ -5,14 +5,12 @@ using System.Collections.Generic;
 public class Inventory : MonoBehaviour
 {
     public List<GameObject> ObjectList;
-
     private void Start() //Desactivo todos para empezar a craftear con solo un obejto y desbloquear el resto
     {
         for(int i = 0; i < ObjectList.Count; i++)
         {
             ObjectList[i].SetActive(false);
         }
-
         ObjectList[0].SetActive(true);
     }
     /// <summary>

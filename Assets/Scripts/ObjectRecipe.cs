@@ -9,11 +9,15 @@ public class ObjectRecipe : ScriptableObject
     /// </summary>
     /// <returns></returns>
     public int getObjectID()
-    { return ID; }
+    { 
+        return ID; 
+    }
     /// <summary>
     /// Esta funcion regresa el codigo numerico que permite crear esta receta
     /// </summary>
     /// <returns></returns>
     public string getRecipe()
-    { return recipe; }
+    { 
+        return recipe; 
+    }
 }
