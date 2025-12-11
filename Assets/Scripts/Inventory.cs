@@ -27,8 +27,8 @@ public class Inventory : MonoBehaviour
     /// Manda la lista de objetos/materiales
     /// </summary>
     /// <returns></returns>
-    public List<GameObject> GetObjectsOnList()
+    public int GetObjectsOnList()
     {
-        return ObjectList;
+        return ObjectList.Count;
     }
 }

@@ -11,9 +11,11 @@ public class CraftManager : MonoBehaviour
     public List<Button> ButtonList;
     private int currentObject;
     public int[] TableTiles;
+    public Inventory inventory;
+    public int inventoryObjects;
     void Start()
     {
-        
+        inventoryObjects = inventory.GetObjectsOnList();
     }
     /// <summary>
     /// Transforma los valores del array TableTiles a un string con todos los valores a una serie numerica
@@ -33,15 +35,37 @@ public class CraftManager : MonoBehaviour
     /// </summary>
     public void CheckCraft()
     {
+        for (int i = 0; i < recipiesArray.Length; i++)
+        {
+            if(recipeToCheck == recipiesArray[i].getRecipe() && inventoryObjects > recipiesArray[i].getObjectID())
+            {
+                CraftObject(i);
+                break;
+            }
 
+            else if(inventoryObjects > recipiesArray[i].getObjectID())
+            {
+                Debug.Log("Si hay objeto crafteable pero la receta es incorrecta");
+            }
+
+            else if (recipeToCheck == recipiesArray[i].getRecipe())
+            {
+                Debug.Log("La receta es correcta pero no hay un boton asignado");
+            }
+
+            else 
+            {
+                Debug.Log("No se pudo crear");
+            }
+        }
     }
     /// <summary>
     /// Craftea el objeto si la receta existe activando su boton correspondiente en el inventario de objetos
     /// </summary>
-    /// <returns></returns>
-    public int CraftObject()
+    /// <param name="id"></param>
+    public void CraftObject(int id)
     {
-        return 0;
+        
     }
     /// <summary>
     /// Cambia el valor de una tile de la mesa de crafteo
