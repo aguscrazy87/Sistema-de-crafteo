@@ -2384,6 +2384,24 @@ MonoBehaviour:
   TableTiles: 000000000000000000000000000000000000000000000000000000000000000000000000
   inventory: {fileID: 1095533936}
   inventoryObjects: 0
+  TileImage:
+  - {fileID: 1476106414}
+  - {fileID: 132135412}
+  - {fileID: 912301826}
+  - {fileID: 767247496}
+  - {fileID: 904929082}
+  - {fileID: 832037844}
+  - {fileID: 1752412018}
+  - {fileID: 522252055}
+  - {fileID: 420385225}
+  ObjectImage:
+  - {fileID: 21300000, guid: 0687d9fc06e8a7e4d84fceb9d916320e, type: 3}
+  - {fileID: 21300000, guid: 5ab790cae20adbe4885bcd7d38f4bdac, type: 3}
+  - {fileID: 21300000, guid: 851cd76683fbadf44a13ac277f6bd1a6, type: 3}
+  - {fileID: 21300000, guid: 8223b3a1a1c0b17488e5580cb27d5eed, type: 3}
+  - {fileID: 21300000, guid: 92edbc566c0df6644b05b4fee484f7fc, type: 3}
+  - {fileID: 21300000, guid: f1bc123beced24d4ebe3a4c2cb0a829d, type: 3}
+  - {fileID: 21300000, guid: 78a1038646592a140a24616c4c1dc801, type: 3}
 --- !u!4 &1095533935
 Transform:
   m_ObjectHideFlags: 0

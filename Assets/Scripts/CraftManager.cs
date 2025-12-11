@@ -13,6 +13,9 @@ public class CraftManager : MonoBehaviour
     public int[] TableTiles;
     public Inventory inventory;
     public int inventoryObjects;
+    public Image[] TileImage;
+    public Sprite[] ObjectImage;
+
     void Start()
     {
         inventoryObjects = inventory.GetObjectsOnList();
@@ -76,6 +79,7 @@ public class CraftManager : MonoBehaviour
     public void SetTile(int tileNumber)
     {
         TableTiles[tileNumber] = currentObject;
+        TileImage[tileNumber].sprite = ObjectImage[currentObject];
         SetRecipe();
     }
     /// <summary>
@@ -95,6 +99,7 @@ public class CraftManager : MonoBehaviour
         for(int i = 0; i < TableTiles.Length; i++)
         {
             TableTiles[i] = 0;
+            TileImage[i].sprite = ObjectImage[0];
         }
 
         SetRecipe();
