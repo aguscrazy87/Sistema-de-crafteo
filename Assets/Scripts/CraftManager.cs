@@ -67,6 +67,7 @@ public class CraftManager : MonoBehaviour
     {
         Debug.Log("Se mando a craftear");
         inventory.CraftObject(id);
+        CleanTable();
     }
     /// <summary>
     /// Cambia el valor de una tile de la mesa de crafteo
