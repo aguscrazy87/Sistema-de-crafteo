@@ -65,7 +65,7 @@ public class CraftManager : MonoBehaviour
     /// <param name="id"></param>
     public void CraftObject(int id)
     {
-        
+        inventory.CraftObject(id);
     }
     /// <summary>
     /// Cambia el valor de una tile de la mesa de crafteo
