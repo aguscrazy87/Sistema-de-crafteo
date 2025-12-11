@@ -21,6 +21,7 @@ public class Inventory : MonoBehaviour
     /// <param name="id"></param>
     public void CraftObject(int id)
     {
+        Debug.Log(id);
         ObjectList[id].SetActive(true);
     }
     /// <summary>

@@ -39,7 +39,7 @@ public class CraftManager : MonoBehaviour
         {
             if(recipeToCheck == recipiesArray[i].getRecipe() && inventoryObjects > recipiesArray[i].getObjectID())
             {
-                CraftObject(i);
+                CraftObject(recipiesArray[i].getObjectID());
                 break;
             }
 
@@ -65,6 +65,7 @@ public class CraftManager : MonoBehaviour
     /// <param name="id"></param>
     public void CraftObject(int id)
     {
+        Debug.Log("Se mando a craftear");
         inventory.CraftObject(id);
     }
     /// <summary>
